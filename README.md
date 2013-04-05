@@ -5,10 +5,12 @@
 ## Build and Run
 
 ```shell
-mvn jetty:run
+mvn clean jetty:run
 ```
 
-#### Go to http://localhost:8080/swagger-springmvc-test/index.html
+#### Go to [http://localhost:8080/swagger-springmvc-test/index.html](http://localhost:8080/swagger-springmvc-test/index.html)
 
-The textfield should be filled with `http://localhost:8080/swagger-springmvc-test/api-docs` 
-
+The textfield should be filled with 
+```shell
+http://localhost:8080/swagger-springmvc-test/api-docs
+```
