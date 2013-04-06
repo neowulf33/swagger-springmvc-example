@@ -5,7 +5,7 @@
 ## Build and Run
 
 ```shell
-mvn jetty:run
+mvn clean jetty:run
 ```
 
 #### Go to [http://localhost:8080/swagger-springmvc-test/index.html](http://localhost:8080/swagger-springmvc-test/index.html)
